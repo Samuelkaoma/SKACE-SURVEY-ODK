@@ -44,6 +44,17 @@ output/audit_results_*.csv
 data/generated_benchmarks/
 data/stress_benchmarks/
 
+# Python virtual environment
+.venv/
+
+# Web dashboard dependencies and build output
+SKACE-Web-Dashboard/node_modules/
+SKACE-Web-Dashboard/dist/
+
+# Web API generated artifacts
+output/features_output.csv
+output/last_run.json
+
 # Editor configuration
 .vscode/
 
